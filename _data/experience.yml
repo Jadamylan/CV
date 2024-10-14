@@ -4,7 +4,7 @@ main:
     degreepath: Masters in Mathematics
     institution: California State University, East Bay (CSUEB)
     department: Mathematics
-    thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    # thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
     years: 2020 - 2022
     
   - type: job
