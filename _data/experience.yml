@@ -1,19 +1,17 @@
 main:
 
   - type: education
-    degreepath: This is a degree path # for type.education.
-    institution: University University
-    department: Lorem Ipsum
-    advisors: Jane Doe, John Doe # for type.education.
+    degreepath: Masters in Mathematics
+    institution: California State University, East Bay (CSUEB)
+    department: Mathematics
     thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
-    years: 2017 - Present
-    notes: In Progress
+    years: 2020 - 2022
     
   - type: job
-    title: Example Job # for type.employment.
-    institution: University University
-    department: Department
-    years: 2024 - Present
+    title: Data Analyst
+    institution: University of California, San Francisco (UCSF)
+    department: Geriatrics
+    years: 2023 - Present
     
   - type: service
     title: A role
