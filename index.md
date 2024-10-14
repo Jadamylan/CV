@@ -4,12 +4,13 @@ layout: homepage
 
 ## About Me
 
-Testing here
+I am a true strategist, passionate problem solver, and advocate. At the heart of my work lies a passion for mathematics, and implementing change toward social justice issues in my community by strengthening equitable experiences. 
 
-## Research Interests
+## My Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Reproductive health:** Accessible doula and Midwifery, Ramifications of Roe v. Wade Overturn
+- **Cognitive Health:** Early detection of cognitive impairment and care
+- **Academic Medicine:** Global research in the Academic Meddicine field
 
 {% include_relative _includes/education.md %}
 
@@ -25,4 +26,4 @@ Testing here
 
 {% include_relative _includes/conferences.md %}
 
-{% include_relative _includes/service.md %}
+<!--{% include_relative _includes/service.md %}-->
