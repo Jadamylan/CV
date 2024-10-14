@@ -11,8 +11,8 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title">{{ link.degreepath }}</div>
       <div class="author">{{ link.institution }} | {{ link.department }} | {{ link.years }}</div>
-      <div class="periodical"><b>Committee:</b> {{ link.advisors }}
-      </div>
+     {% if link.advisors %}<div class="periodical"><b>Committee:</b> {{ link.advisors }}
+      </div>{% endif %}
     <div class="links">
       {% if link.text %} 
       <a href="{{ link.text }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Link</a>
