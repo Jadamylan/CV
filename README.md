@@ -29,7 +29,7 @@ Built from a problem close to home: helping my mom understand how to keep her ch
 
 Dime is a face-to-face translation experience designed around the iPhone Duo form factor. Instead of passing one phone back and forth, each person gets their own side of the conversation.
 
-The hackathon MVP focuses on English ↔ Español communication in a healthcare setting, with accessibility, clarification, recap, and interpreter-escalation built into the product idea.
+The hackathon MVP focuses on English ↔ Español communication in a healthcare setting, with accessibility, clarification, recap, and interpreter escalation built into the product idea.
 
 **Built with:** Swift, SwiftUI, Swift Package Manager, RevenueCat test tooling
 
@@ -38,7 +38,7 @@ The hackathon MVP focuses on English ↔ Español communication in a healthcare 
 ### [BenchBridge](https://github.com/Jadamylan/BenchBridge)
 **A skills-first bridge between union dispatches.**
 
-BenchBridge explores what workforce matching looks like when you start with a worker’s actual skills, certifications, experience, location, and requirement gaps instead of just a job title.
+BenchBridge explores workforce matching by starting with a worker’s real skills, certifications, experience, location, and requirement gaps instead of just a job title.
 
 The prototype uses a graph model to connect workers with programs, employers, project signals, and realistic next steps.
 
@@ -51,25 +51,42 @@ The prototype uses a graph model to connect workers with programs, employers, pr
 
 I move fast when I build, but I do not want “move fast” to become an excuse for careless security decisions.
 
-JadaSecure is the reusable security standard I drop into AI-assisted projects so auth, access control, secrets, rate limits, privacy, and launch checks are part of the build from the beginning.
+JadaSecure is the reusable security standard I bring into AI-assisted projects so auth, access control, secrets, privacy, and launch checks are part of the build from the beginning.
 
 ---
 
 ## Analytics work
 
 ### [The Balancing Beam of Performance](https://github.com/Jadamylan/balancing-beam-of-performance)
-A refreshed statistical case study using anonymized youth gymnastics competition data. The project focuses on effect sizes, uncertainty, exact permutation testing, robust standard errors, and responsible storytelling with a small sample.
+A refreshed statistical case study using anonymized youth gymnastics competition data. The project focuses on effect sizes, uncertainty, exact permutation testing, robust standard errors, responsible missing-data choices, and knowing when the evidence does **not** support a dramatic conclusion.
 
 ### [What Makes a Good Wine?](https://github.com/Jadamylan/wine-quality-analysis)
-An interactive rebuild of a graduate statistics project exploring the chemical properties associated with Portuguese Vinho Verde quality — plus a 2026 roadmap for how I would approach the same question with a more mature analytical stack.
+An interactive rebuild of a 2022 graduate statistics project exploring the chemical properties associated with Portuguese Vinho Verde quality — plus a 2026 look at how I would approach the same question with a more mature analytical stack.
 
 ---
 
 ## Open source
 
-I contributed **cross-session cost and token reporting** to [Mistral Vibe](https://github.com/mistralai/mistral-vibe), adding a `/usage` workflow for understanding usage beyond a single session.
+I opened [**Mistral Vibe PR #1028 — Add /usage for cross-session cost and token reporting**](https://github.com/mistralai/mistral-vibe/pull/1028).
 
-I enjoy contributing to tools I actually use because it forces me to move from “I wish this existed” to “let me see if I can build it.”
+The contribution adds a read-only usage aggregator over local session logs plus a `/usage` workflow for reviewing cost and token usage across **7 days, 30 days, or all history**, with optional CSV output and a one-line model-generated insight.
+
+The PR is currently open. The implementation includes dedicated tests and documentation updates.
+
+I enjoy contributing to tools I actually use because it forces me to move from:
+
+> “I wish this existed.”
+
+to:
+
+> “Cool. Let me see if I can build it.”
+
+---
+
+## Technical experiments
+
+### [Monorepo Context Graph + Dagger](https://github.com/Jadamylan/jfrog-neo4j-swampup-2026)
+A CI experiment using Neo4j to model dependency relationships and content hashes to decide what work actually needs to run after a code change — then recording the selection rationale as evidence.
 
 ---
 
@@ -91,6 +108,6 @@ A few patterns show up in almost everything I build:
 
 ---
 
-I’m especially interested in analytics, AI products, civic/workforce tools, education, small-business technology, and creative hackathon builds.
+I’m especially interested in analytics, AI products, workforce tools, education, small-business technology, and creative hackathon builds.
 
 **San Francisco Bay Area** · [GitHub](https://github.com/Jadamylan)
