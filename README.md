@@ -42,7 +42,8 @@ BenchBridge explores workforce matching by starting with a worker’s real skill
 
 The prototype uses a graph model to connect workers with programs, employers, project signals, and realistic next steps.
 
-**Built with:** Neo4j, Cypher, TypeScript/JavaScript, structured public-source research
+**Built with:** Neo4j, Cypher, TypeScript/JavaScript, structured public-source research  
+**Live demo:** https://benchbridge-liard.vercel.app
 
 ---
 
@@ -60,8 +61,12 @@ JadaSecure is the reusable security standard I bring into AI-assisted projects s
 ### [The Balancing Beam of Performance](https://github.com/Jadamylan/balancing-beam-of-performance)
 A refreshed statistical case study using anonymized youth gymnastics competition data. The project focuses on effect sizes, uncertainty, exact permutation testing, robust standard errors, responsible missing-data choices, and knowing when the evidence does **not** support a dramatic conclusion.
 
+**Live analysis:** https://jadamylan.github.io/balancing-beam-of-performance/
+
 ### [What Makes a Good Wine?](https://github.com/Jadamylan/wine-quality-analysis)
 An interactive rebuild of a 2022 graduate statistics project exploring the chemical properties associated with Portuguese Vinho Verde quality — plus a 2026 look at how I would approach the same question with a more mature analytical stack.
+
+**Live analysis:** https://jadamylan.github.io/wine-quality-analysis/
 
 ---
 
@@ -109,5 +114,13 @@ A few patterns show up in almost everything I build:
 ---
 
 I’m especially interested in analytics, AI products, workforce tools, education, small-business technology, and creative hackathon builds.
+
+## See the work live
+
+- [BenchBridge](https://benchbridge-liard.vercel.app) — skills-first workforce matching
+- [Balancing Beam of Performance](https://jadamylan.github.io/balancing-beam-of-performance/) — statistical case study
+- [What Makes a Good Wine?](https://jadamylan.github.io/wine-quality-analysis/) — interactive statistics portfolio
+
+---
 
 **San Francisco Bay Area** · [GitHub](https://github.com/Jadamylan)
